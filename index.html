@@ -16,20 +16,19 @@
 <h2>Seja bem-vindo(a),</h2> <h2 id="nome"></h2> 
 <p> Responda as perguntas abaixo e descubra o resultado! :)</p>
 
-<form name="myForm" onsubmit="return validateForm()" method="post">
+<form name="myForm">
 
   <fieldset>
     <legend>Seus Dados</legend>
   Nome: <br>
-  <input type="text" name="fname" value="">
+  <input type="text" name="fname" value="" placeholder="itimalia">
     <br>
     E-mail:<br>
   <input type="text" name="femail" value="">
     <br><br>
-    <input type="submit" value="Enviar">
-  
+
   </fieldset>
-</form>
+
 <br>
 <br>
 
@@ -47,9 +46,9 @@
     <input type="number" size="5" value="" id="btn-r3"/></p>
     <p id="r3"></p>
 
-    <input type="submit" value="Verificar" onclick="return validateAnswer()">
+    <input type="submit" value="Verificar" onclick="return validateForm()" >
   </fieldset>
-
+</form>
   </body>
 </html>
 

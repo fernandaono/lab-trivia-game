@@ -4,11 +4,24 @@ function validateForm() {
     if (dados == "") {
       alert("Por favor, informe o seu nome :)");
       return false;
+      
+/* criar uma function que valide o e-mail
+
+function IsEmail(email){
+ 
+  if(){
+    return
+  }
+    
+  else {
+}*/ 
     }
   document.getElementById("nome").value = dados;
   let firstName = document.getElementById("nome").value;
   document.getElementById("nome").innerText = firstName
-  }
+
+  validateAnswer();  
+}
 
   function validateAnswer() {
     event.preventDefault();  
